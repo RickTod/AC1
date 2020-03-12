@@ -10,5 +10,5 @@ def hello_world():
     return 'Hello from Flask!'
 
 @app.route('/inicio')
-def hello_world():
+def inicio():
     return render_template('inicio.html')
